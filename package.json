@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
 
-    "build:prod": "ng build --prod && cd /opt/bitnami/apache2/htdocs/ && rm -rf * && cd /home/bitnami/projects/personal-blog/dist/matheus-blog/ && mv * /opt/bitnami/apache2/htdocs/"
+    "build:prod": "cd /opt/bitnami/apache2/htdocs/ && rm -rf * && cd /home/bitnami/projects/personal-blog/dist/matheus-blog/ && cp * /opt/bitnami/apache2/htdocs/"
   },
   "private": true,
   "dependencies": {
