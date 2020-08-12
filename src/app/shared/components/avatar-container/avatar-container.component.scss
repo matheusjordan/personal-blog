@@ -1,0 +1,25 @@
+ion-avatar {
+  margin: auto;
+  height: 128px;
+  width: 128px;
+}
+ion-text {
+  margin: auto;
+}
+
+
+.name-row {
+  margin-top: 16px;
+}
+
+@media (max-width: 767px) {
+  ion-avatar {
+    margin: auto;
+    height: 88px;
+    width: 88px;
+  }
+
+  .name-row {
+    margin-top: 32px;
+  }
+}
