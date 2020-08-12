@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { AvatarContainerComponent } from './components/avatar-container/avatar-container.component';
 import { IonicModule } from '@ionic/angular';
 import { ButtonsContainerComponent } from './components/buttons-container/buttons-container.component';
+import { ArticleContainerComponent } from './components/article-container/article-container.component';
 
 
 
 @NgModule({
   declarations: [
     AvatarContainerComponent,
-    ButtonsContainerComponent
+    ButtonsContainerComponent,
+    ArticleContainerComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { ButtonsContainerComponent } from './components/buttons-container/button
   ],
   exports: [
     AvatarContainerComponent,
-    ButtonsContainerComponent
+    ButtonsContainerComponent,
+    ArticleContainerComponent,
   ]
 })
 export class SharedModule { }
