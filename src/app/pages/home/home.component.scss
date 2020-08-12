@@ -1,0 +1,28 @@
+ion-card {
+  max-width: 100%;
+}
+
+.data-card {
+  height: calc(100vh - 48px);
+}
+
+.menu-card {
+  min-height: 64px;
+  max-height: 64px;
+}
+
+.articles-card {
+  min-width: calc(100% - 20px);
+  height: fit-content;
+}
+
+.articles-row {
+  height: calc(100% - 80px);
+}
+
+@media (max-width: 767px) {
+  .data-card {
+    min-height: 128px;
+    max-height: 128px;
+  }
+}
