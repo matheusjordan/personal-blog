@@ -11,7 +11,11 @@
           <app-buttons-container></app-buttons-container>
         </ion-card>
         <ion-row class="articles-row">
-          <ion-card class="articles-card">3</ion-card>
+          <ion-card class="articles-card">
+            <ion-list>
+              <app-article-container *ngFor="let i of [].constructor(2)"></app-article-container>
+            </ion-list>
+          </ion-card>
         </ion-row>
       </ion-col>
     </ion-row>
