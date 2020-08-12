@@ -1,5 +1,6 @@
 ion-avatar {
   margin: auto;
+  margin-top: 32px;
   height: 128px;
   width: 128px;
 }
@@ -12,14 +13,21 @@ ion-text {
   margin-top: 16px;
 }
 
+.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 1.1rem;
+}
+
 @media (max-width: 767px) {
   ion-avatar {
     margin: auto;
     height: 88px;
     width: 88px;
-  }
+    margin-top: 0px;
 
-  .name-row {
-    margin-top: 32px;
   }
 }

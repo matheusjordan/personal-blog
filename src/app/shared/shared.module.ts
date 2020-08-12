@@ -4,6 +4,7 @@ import { AvatarContainerComponent } from './components/avatar-container/avatar-c
 import { IonicModule } from '@ionic/angular';
 import { ButtonsContainerComponent } from './components/buttons-container/buttons-container.component';
 import { ArticleContainerComponent } from './components/article-container/article-container.component';
+import { TagsContainerComponent } from './tags-container/tags-container.component';
 
 
 
@@ -11,7 +12,8 @@ import { ArticleContainerComponent } from './components/article-container/articl
   declarations: [
     AvatarContainerComponent,
     ButtonsContainerComponent,
-    ArticleContainerComponent
+    ArticleContainerComponent,
+    TagsContainerComponent
   ],
   imports: [
     CommonModule,
@@ -21,6 +23,7 @@ import { ArticleContainerComponent } from './components/article-container/articl
     AvatarContainerComponent,
     ButtonsContainerComponent,
     ArticleContainerComponent,
+    TagsContainerComponent
   ]
 })
 export class SharedModule { }
