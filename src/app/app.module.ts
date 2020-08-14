@@ -17,7 +17,7 @@ import { AppComponent } from './app.component';
     IonicModule.forRoot(),
 
     HomeModule,
-    LoginModule
+    LoginModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
