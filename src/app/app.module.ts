@@ -4,6 +4,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { HomeModule } from './pages/home/home.module';
+import { LoginModule } from './pages/login/login.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     IonicModule.forRoot(),
 
-    HomeModule
+    HomeModule,
+    LoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]

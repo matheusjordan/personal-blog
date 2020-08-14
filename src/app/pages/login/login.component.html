@@ -1,1 +1,37 @@
-<p>login works!</p>
+<ion-content color="tertiary">
+  <ion-card class="login-card">
+    <form>
+      <ion-list>
+        <ion-list-header>
+          <ion-text class="text-center list-header-text" color="secondary">
+            Bem vindo :D
+          </ion-text>
+        </ion-list-header>
+        <ion-item>
+          <ion-label position="floating">
+            Usuário
+          </ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">
+            Senha
+          </ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="12" class="btns-container">
+              <ion-button color="light" class="login-btn" (click)="toHome()">
+                Voltar
+              </ion-button>
+              <ion-button color="secondary" class="login-btn">
+                Entrar
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-list>
+    </form>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,26 @@
+ion-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-card {
+  padding: 8px 32px;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 128px;
+}
+.btns-container {
+  display: flex;
+  height: fit-content;
+}
+
+.login-btn {
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.list-header-text {
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
