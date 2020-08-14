@@ -1,20 +1,22 @@
-<ion-grid>
-  <ion-row>
-    <ion-col size="8" class="nav-btns-col">
+<ion-grid class="btns-grid">
+  <ion-row class="btns-row">
+    <ion-col class="btn-col">
     <ion-button color="secondary">
       <ion-text>
         Sobre
       </ion-text>
     </ion-button>
-    <ion-button color="secondary">
-      <ion-text>
-        Projetos
-      </ion-text>
-    </ion-button>
     </ion-col>
-    <ion-col size="4" class="login-btn-col">
+    <ion-col class="btn-col">
+      <ion-button color="secondary">
+        <ion-text>
+          Projetos
+        </ion-text>
+      </ion-button>
+    </ion-col>
+    <ion-col class="btn-col login-btn-col">
       <ion-buttons class="login-btn">
-        <ion-button color="secondary" slot="icon-only">
+        <ion-button color="secondary" slot="icon-only" (click)="toLogin()">
           <ion-icon name="person-circle-outline" class="login-btn-icon"></ion-icon>
         </ion-button>
       </ion-buttons>

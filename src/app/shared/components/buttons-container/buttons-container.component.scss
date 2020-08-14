@@ -1,7 +1,3 @@
-.login-btn-col {
-  display: flex;
-}
-
 .login-btn {
   margin-left: auto;
 }
@@ -10,7 +6,22 @@
   font-size: 32px;
 }
 
-.nav-btns-col {
-  flex-direction: row;
+.btn-col {
   display: flex;
+}
+
+
+@media (max-width: 360px) {
+  .btns-grid {
+    min-height: 88px;
+  }
+
+  .btns-row {
+    flex-direction: column;
+    min-height: 88px;
+  }
+
+  .login-btn-col {
+    position: absolute;
+  }
 }
